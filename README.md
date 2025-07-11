@@ -282,10 +282,10 @@ def run_bot():
             main()
         except Exception as e:
             logging.error(f"Ana işlem hatası: {str(e)}")
-```
-        
+
         logging.info(f"{CHECK_INTERVAL} saniye sonra tekrar kontrol edilecek...")
         time.sleep(CHECK_INTERVAL)
 
 if __name__ == "__main__":
     run_bot()
+```
